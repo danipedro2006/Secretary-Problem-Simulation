@@ -25,7 +25,7 @@ This is one test; you can repeat it as many times as you like to get an average 
 
 If you want to get even fancier, you can try your hand at a neuroevolutionary algorithm. The function will be the front door for a node-based computation system, and the simulation environment will be the fitness test. You'll then implement an evolutionary algorithm that will produce neural nets based on random "mutations" and/or "matings" of existing nets, and evaluate them with the fitness test to determine which do the job best. Then, once the evolution has plateaued after a few hundred generations, you can digest the algorithm, figure out how it does what it does and translate it back into static code.
 ## Results
-After tunning the code for 100 different commit point I came up 37% chance of finding the best candidate. We know that we should always commit after seeng 37% of candidates. Why 37% is the magical stopping point? Well, because 1/e equals 0.367879. I (refer you to Wikipedia here)[https://en.wikipedia.org/wiki/Secretary_problem].
+After tunning the code for 100 different commit point I came up 37% chance of finding the best candidate. We know that we should always commit after seeng 37% of candidates. Why 37% is the magical stopping point? Well, because 1/e equals 0.367879. I [refer you to Wikipedia here](https://en.wikipedia.org/wiki/Secretary_problem).
 This chance strategy will get you the best choice converges to 1/e (37%) as the number of choices gets larger. While it doesn't guarantee you the best choice, it should give you a reasonably good choice a high percentage of the time given the constraints.
 
 ![Secretary Problem](https://github.com/danipedro2006/Secretary-Problem-Simulation/blob/main/TVeHr9ZTmO.png)
